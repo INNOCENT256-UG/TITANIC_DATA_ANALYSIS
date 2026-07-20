@@ -117,7 +117,7 @@ XGBoost (Extreme Gradient Boosting) is an advanced ensemble technique that:
 
 ### 1. **survival_overview.png**
 
-![Churn by Contract](Graph/Churn%20Rate%20By%20Contract%20Type.png)
+![charts](charts/survival_overview.png)
 - Survival count distribution
 - Survival rate by gender
 - Survival rate by passenger class
