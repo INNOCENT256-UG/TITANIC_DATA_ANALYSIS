@@ -125,6 +125,8 @@ XGBoost (Extreme Gradient Boosting) is an advanced ensemble technique that:
 - Embarkation port analysis
 
 ### 2. **detailed_analysis.png**
+![charts](charts/detailed_analysis.png)
+
 - Survival by class and gender (combined)
 - Family size impact on survival
 - Cabin availability effect
