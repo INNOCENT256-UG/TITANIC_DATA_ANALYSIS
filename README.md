@@ -116,7 +116,6 @@ XGBoost (Extreme Gradient Boosting) is an advanced ensemble technique that:
 ## 📈 Visualizations
 
 ### 1. **survival_overview.png**
-
 ![charts](charts/survival_overview.png)
 - Survival count distribution
 - Survival rate by gender
@@ -126,13 +125,13 @@ XGBoost (Extreme Gradient Boosting) is an advanced ensemble technique that:
 
 ### 2. **detailed_analysis.png**
 ![charts](charts/detailed_analysis.png)
-
 - Survival by class and gender (combined)
 - Family size impact on survival
 - Cabin availability effect
 - Feature correlation heatmap
 
 ### 3. **age_title_analysis.png**
+![charts](charts/age_title_analysis.png)
 - Survival rate by age bands
 - Survival rate by social title
 
