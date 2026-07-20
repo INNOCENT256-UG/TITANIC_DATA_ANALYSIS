@@ -58,35 +58,6 @@ This project performs an end-to-end analysis of the Titanic survival dataset, an
 | **Embarked** | 2 (0.2%) | Filled with mode (most common) |
 | **Fare** | 0 (0.0%) | No action needed |
 
-### Feature Engineering
-
-Created **5 new features** to improve model performance:
-
-1. **FamilySize** = SibSp + Parch + 1
-   - Captures total family members traveling together
-   
-2. **IsAlone** = 1 if FamilySize == 1, else 0
-   - Binary indicator for solo travelers
-   
-3. **Title** (from Name)
-   - Extracted titles: Mr, Mrs, Miss, Master, Rare
-   - Encoded as numeric: Mr=1, Miss=2, Mrs=3, Master=4, Rare=5
-   - Captures social status and gender information
-   
-4. **AgeBand** (5 bins)
-   - Discretizes continuous age into categories
-   
-5. **FareBand** (4 quantile bins)
-   - Groups fares into economic tiers
-
-### Text to Numeric Conversion
-
-| Column | Original | Encoded |
-|--------|----------|---------|
-| **Sex** | male, female | male=0, female=1 |
-| **Embarked** | S, C, Q | S=0, C=1, Q=2 |
-| **Title** | Mr, Mrs, Miss, Master, Rare | 1, 2, 3, 4, 5 |
-
 ---
 
 ## 🤖 Machine Learning Models
@@ -200,6 +171,35 @@ The model confirms historical accounts:
 - ✅ Age mattered (children prioritized, seniors struggled)
 
 ---
+
+### Feature Engineering
+
+Created **5 new features** to improve model performance:
+
+1. **FamilySize** = SibSp + Parch + 1
+   - Captures total family members traveling together
+   
+2. **IsAlone** = 1 if FamilySize == 1, else 0
+   - Binary indicator for solo travelers
+   
+3. **Title** (from Name)
+   - Extracted titles: Mr, Mrs, Miss, Master, Rare
+   - Encoded as numeric: Mr=1, Miss=2, Mrs=3, Master=4, Rare=5
+   - Captures social status and gender information
+   
+4. **AgeBand** (5 bins)
+   - Discretizes continuous age into categories
+   
+5. **FareBand** (4 quantile bins)
+   - Groups fares into economic tiers
+
+### Text to Numeric Conversion
+
+| Column | Original | Encoded |
+|--------|----------|---------|
+| **Sex** | male, female | male=0, female=1 |
+| **Embarked** | S, C, Q | S=0, C=1, Q=2 |
+| **Title** | Mr, Mrs, Miss, Master, Rare | 1, 2, 3, 4, 5 |
 
 ## 🚀 Getting Started
 
