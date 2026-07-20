@@ -43,7 +43,31 @@ This project performs an end-to-end analysis of the Titanic survival dataset, an
 - **Children (0-12):** ~54% survival rate (priority rescue)
 - **Adults (18-35):** ~38% survival rate
 - **Seniors (60+):** ~23% survival rate
-- **Finding:** Age significantly impacts survival, with children prioritized
+- **Finding:** Age significantly impacts survival, with children prioritized.
+## 📈 Visualizations
+### 1. **survival_overview.png**
+![charts](charts/survival_overview.png)
+- Survival count distribution
+- Survival rate by gender
+- Survival rate by passenger class
+- Age and fare distributions
+- Embarkation port analysis
+### 2. **detailed_analysis.png**
+![charts](charts/detailed_analysis.png)
+- Survival by class and gender (combined)
+- Family size impact on survival
+- Cabin availability effect
+- Feature correlation heatmap
+### 3. **age_title_analysis.png**
+![charts](charts/age_title_analysis.png)
+- Survival rate by age bands
+- Survival rate by social title
+### 4. **model_comparison.png**
+![charts](charts/model_comparison.png)
+- Accuracy comparison across all models
+- Precision, Recall, F1-Score metrics
+- Confusion matrix for best model
+- Feature importance rankings
 
 ---
 
@@ -110,33 +134,6 @@ XGBoost (Extreme Gradient Boosting) is an advanced ensemble technique that:
 - Handles **missing values** and **non-linear patterns** automatically
 - Provides **feature importance** rankings
 - Industry-standard for tabular data competitions (Kaggle)
-
----
-
-## 📈 Visualizations
-### 1. **survival_overview.png**
-![charts](charts/survival_overview.png)
-- Survival count distribution
-- Survival rate by gender
-- Survival rate by passenger class
-- Age and fare distributions
-- Embarkation port analysis
-### 2. **detailed_analysis.png**
-![charts](charts/detailed_analysis.png)
-- Survival by class and gender (combined)
-- Family size impact on survival
-- Cabin availability effect
-- Feature correlation heatmap
-### 3. **age_title_analysis.png**
-![charts](charts/age_title_analysis.png)
-- Survival rate by age bands
-- Survival rate by social title
-### 4. **model_comparison.png**
-![charts](charts/model_comparison.png)
-- Accuracy comparison across all models
-- Precision, Recall, F1-Score metrics
-- Confusion matrix for best model
-- Feature importance rankings
 
 ---
 
