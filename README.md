@@ -6,6 +6,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
 A comprehensive data science portfolio project analyzing the Titanic dataset with advanced machine learning models, feature engineering, and actionable insights.
+![charts](charts/Screenshot%202026-07-20%20190045.png)
 
 ## 📊 Project Overview
 
