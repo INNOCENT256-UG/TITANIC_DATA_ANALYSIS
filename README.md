@@ -7,6 +7,7 @@
 
 A comprehensive data science portfolio project analyzing the Titanic dataset with advanced machine learning models, feature engineering, and actionable insights.
 ![charts](charts/Screenshot%202026-07-20%20190045.png)
+🔗 [GitHub Profile](https://github.com/INNOCENT256-UG) | 📊 [Portfolio](https://github.com/INNOCENT256-UG?tab=repositories)
 
 ## 📊 Project Overview
 
@@ -398,7 +399,8 @@ Top 5 most important features:
 ---
 
 ## 👨‍💻 Author
-
+INNOCENT256
+🔗 [GitHub Profile](https://github.com/INNOCENT256-UG) | 📊 [Portfolio](https://github.com/INNOCENT256-UG?tab=repositories)
 This project demonstrates:
 - Advanced data analysis capabilities
 - Machine learning expertise
